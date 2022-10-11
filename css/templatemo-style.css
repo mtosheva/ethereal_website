@@ -150,6 +150,15 @@ video {
   right:0;
   bottom: 0;
 }
+img#meeting_img {
+  background-size: contain;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
 .wrapper-background-dark:after {
   background: #222;
   opacity:0.95;

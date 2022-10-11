@@ -429,3 +429,12 @@
 		left: 43%;
 	}
 }
+	 /*. hide video on mobile screens*/
+/* @media (max-width: 480px) {
+	#meeting_video { display: none; }  
+	#meeting_img {display: inline-block;}
+}
+@media (min-width: 480px){
+	#meeting_video {display: inline-block; }
+	#meeting_img {display: none;}
+} */
