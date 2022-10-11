@@ -150,7 +150,7 @@ video {
   right:0;
   bottom: 0;
 }
-img#meeting_img {
+#meeting_img {
   background-size: contain;
   position: fixed;
   right: 0;
