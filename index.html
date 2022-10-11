@@ -76,12 +76,12 @@ https://templatemo.com/tm-528-elegance
             </div>
         </header>
         <!-- playsinline -->
-        <video autoplay muted loop  id="meeting_video">
+        <video  autoplay muted loop  id="meeting_video">
             <source src="images/meeting-ethereal.mp4" type="video/mp4">
         </video>
 
 
-      <img id="meeting_img" src="./images/meeting-ethereal_moment.jpg"></img>
+      <img  id="meeting_img" src="./images/meeting-ethereal_moment.jpg"></img>
 
        
         <div id="fullpage" class="fullpage-default">
@@ -573,12 +573,10 @@ https://templatemo.com/tm-528-elegance
                 var videoLocation = document.getElementById("meeting_video");
                 var imageLocation = document.getElementById('meeting_img');
                 if (window.innerWidth < 480) {
-                    videoLocation.style.display = 'none';
-                    imageLocation.style.display = true;
+                    videoLocation.remove();
                 }
                 else{
-                    imageLocation.style.display = 'none';
-                    videoLocation.style.display = true;
+                    imageLocation.remove();
                 }
             }
         (function () {
